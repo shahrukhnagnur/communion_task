@@ -2,7 +2,6 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-/* Home Container */
 .home-container {
   min-height: 100vh;
   display: flex;
@@ -13,7 +12,6 @@
   padding: 10vh 5%;
 }
 
-/* Centered Content */
 .content {
   max-width: 800px;
   margin-bottom: 50px;
@@ -31,7 +29,6 @@
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Big Paragraph Section */
 .about-communion {
   margin-bottom: 40px;
 }
@@ -46,7 +43,6 @@
   line-height: 1.6;
 }
 
-/* Features Section */
 .features-container {
   display: flex;
   justify-content: space-between;
@@ -86,7 +82,6 @@
 .btn-primary:hover {
   background-color: #0056b3;
 }
-/* Ready to Connect Section */
 .ready-to-connect {
   text-align: center;
   margin: 50px 0;
@@ -99,7 +94,6 @@
   margin-bottom: 15px;
 }
 
-/* Ready to Connect Button */
 .btn-connect {
   display: inline-block;
   padding: 12px 25px;
@@ -118,7 +112,6 @@
   box-shadow: 0px 6px 12px rgba(0, 34, 255, 0.5);
   transform: scale(1.05);
 }
-/* Ready to Connect & Explore Events Button */
 .btn-connect {
   display: inline-block;
   padding: 12px 25px;
