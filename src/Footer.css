@@ -1,0 +1,70 @@
+/* Footer Container */
+.footer-container {
+  background: linear-gradient(135deg, #2a2d43, #3c3f5a);
+  color: white;
+  padding: 50px 5%;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Footer Content */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer Sections */
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1;
+  min-width: 280px;
+}
+
+/* Footer Text */
+.footer-left h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+/* Footer Links */
+.footer-middle h2,
+.footer-right h2 {
+  font-size: 1.5rem;
+}
+
+.footer-middle p,
+.footer-right p {
+  margin: 5px 0;
+}
+
+.footer-middle a,
+.footer-right a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-middle a:hover,
+.footer-right a:hover {
+  color: #ffcc00;
+}
+
+/* Copyright Section */
+.footer-bottom {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+}

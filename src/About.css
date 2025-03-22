@@ -1,0 +1,167 @@
+.about-container {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-header {
+  margin-bottom: 40px;
+}
+
+.about-header h1 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.about-header p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Cards in One Row - Responsive */
+.about-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.about-section {
+  background: white;
+  padding: 30px;
+  width: 30%;
+  min-width: 280px; /* Ensures it adapts on smaller screens */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.about-section h2 {
+  font-size: 26px;
+  color: #0077b6;
+}
+
+.about-section p,
+.about-section ul {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-section ul li {
+  padding: 8px 0;
+}
+
+.about-btn {
+  background: #0077b6;
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.about-btn:hover {
+  background: #005f8a;
+  transform: scale(1.05);
+}
+
+/* Testimonials Section */
+.testimonials {
+  margin-top: 60px;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  width: 30%;
+  min-width: 280px; /* Ensures good responsiveness */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-card p {
+  font-size: 16px;
+  color: #555;
+  font-style: italic;
+}
+
+.testimonial-card h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #0077b6;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 1024px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section {
+    width: 80%;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    width: 100%;
+  }
+
+  .testimonial-card {
+    width: 100%;
+  }
+
+  .about-header h1 {
+    font-size: 28px;
+  }
+
+  .about-header p {
+    font-size: 16px;
+  }
+}

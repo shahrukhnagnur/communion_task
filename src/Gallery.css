@@ -1,0 +1,104 @@
+/* Dark Modern Theme */
+.gallery-container {
+  text-align: center;
+  padding: 50px 5%;
+  color: black;
+}
+
+.gallery-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.gallery-text {
+  font-size: 1.1rem;
+  color: #161515a7;
+  margin-bottom: 30px;
+}
+
+/* Compact Grid Layout */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Small Image Cards */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  background: #1c1c1c;
+  height: 200px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.85);
+  transition: filter 0.3s ease;
+}
+
+/* Content Overlay */
+.gallery-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(6px);
+  text-align: left;
+}
+
+.gallery-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.gallery-item p {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 8px;
+}
+
+/* Hover Effects */
+.gallery-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.gallery-item:hover img {
+  filter: brightness(1);
+  cursor: pointer;
+}
+
+.view-more {
+  font-size: 0.9rem;
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.view-more:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
