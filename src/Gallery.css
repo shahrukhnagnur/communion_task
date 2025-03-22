@@ -1,4 +1,3 @@
-/* Dark Modern Theme */
 .gallery-container {
   text-align: center;
   padding: 50px 5%;
@@ -17,7 +16,6 @@
   margin-bottom: 30px;
 }
 
-/* Compact Grid Layout */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -25,7 +23,6 @@
   justify-content: center;
 }
 
-/* Small Image Cards */
 .gallery-item {
   position: relative;
   overflow: hidden;
@@ -43,7 +40,6 @@
   transition: filter 0.3s ease;
 }
 
-/* Content Overlay */
 .gallery-content {
   position: absolute;
   bottom: 0;
@@ -67,7 +63,6 @@
   margin-bottom: 8px;
 }
 
-/* Hover Effects */
 .gallery-item:hover {
   transform: scale(1.03);
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
@@ -90,7 +85,6 @@
   text-decoration: underline;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
