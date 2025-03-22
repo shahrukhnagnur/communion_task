@@ -1,4 +1,3 @@
-/* Footer Container */
 .footer-container {
   background: linear-gradient(135deg, #2a2d43, #3c3f5a);
   color: white;
@@ -7,7 +6,6 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-/* Footer Content */
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -18,7 +16,6 @@
   margin: 0 auto;
 }
 
-/* Footer Sections */
 .footer-left,
 .footer-middle,
 .footer-right {
@@ -26,7 +23,6 @@
   min-width: 280px;
 }
 
-/* Footer Text */
 .footer-left h1 {
   font-size: 2rem;
   margin-bottom: 10px;
@@ -38,7 +34,6 @@
   max-width: 500px;
 }
 
-/* Footer Links */
 .footer-middle h2,
 .footer-right h2 {
   font-size: 1.5rem;
@@ -61,7 +56,6 @@
   color: #ffcc00;
 }
 
-/* Copyright Section */
 .footer-bottom {
   margin-top: 30px;
   font-size: 0.9rem;
